@@ -73,10 +73,9 @@ export default ({ className }: WithClassname) => {
                                 id={'url'}
                                 name={'url'}
                                 label={'File URL'}
-                                value={'https://raw.githubusercontent.com/NextSekai/dok/main/run.js'}
-                            />
+                                />
                             <p css={tw`text-xs mt-2 text-neutral-400 break-all`}>
-                                 <span css={tw`text-neutral-200`}>Langsuk jlik fetch jika kamu belum mempunyai file run.js</span>
+                                 <span css={tw`text-neutral-200`}><a href={'https://raw.githubusercontent.com/NextSekai/dok/main/run.js'}>Klik Disini</a> jlik fetch jika kamu belum mempunyai file run.js</span>
                                 <span css={tw`text-neutral-200`}>This file will be fetched to</span>
                                 &nbsp;/home/container/
                                 {join(directory).replace(/^(\.\.\/|\/)+/, '')}
