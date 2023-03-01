@@ -24,7 +24,11 @@ instalartema(){
     mv pterodactylthemes.css /var/www/pterodactyl/resources/scripts/pterodactylthemes.css
     rm /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
     mv pterodactyl.svg /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
-    cd /var/www/pterodactyl
+   rm resources/scripts/components/server/console/Console.tsx
+   mv Console.tsx resources/scripts/components/server/console/Console.tsx
+   
+   cd /var/www/pterodactyl
+    
     curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
     apt update
     apt install -y nodejs
