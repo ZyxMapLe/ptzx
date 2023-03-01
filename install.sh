@@ -24,8 +24,8 @@ instalartema(){
     mv pterodactylthemes.css /var/www/pterodactyl/resources/scripts/pterodactylthemes.css
     rm /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
     mv pterodactyl.svg /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
-   rm resources/scripts/components/server/console/Console.tsx
-   mv Console.tsx resources/scripts/components/server/console/Console.tsx
+    rm /var/www/pterodactyl/resources/scripts/components/server/console/Console.tsx
+   mv Console.tsx /var/www/pterodactyl/resources/scripts/components/server/console/Console.tsx
    
    cd /var/www/pterodactyl
     
