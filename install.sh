@@ -22,6 +22,8 @@ instalartema(){
     mv FetchButton.tsx /var/www/pterodactyl/resources/scripts/components/server/files/FetchButton.tsx
     mv index.tsx /var/www/pterodactyl/resources/scripts/index.tsx
     mv pterodactylthemes.css /var/www/pterodactyl/resources/scripts/pterodactylthemes.css
+    rm /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
+    mv pterodactyl.svg /var/www/pterodactyl/public/assets/svgs/pterodactyl.svg
     cd /var/www/pterodactyl
     curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
     apt update
