@@ -223,7 +223,7 @@ export default () => {
                     <input
                         className={classNames('peer', styles.command_input)}
                         type={'text'}
-                        placeholder={'Follow ig @amirul.dev'}
+                        placeholder={'Ketik Command Disini | Follow ig @ditzzsxz_'}
                         aria-label={'Console command input.'}
                         disabled={!instance || !connected}
                         onKeyDown={handleCommandKeyDown}
