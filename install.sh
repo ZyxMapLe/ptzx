@@ -13,8 +13,8 @@ instalartema(){
     echo -e "${CYAN}Installing themes..."
     cd /var/www/pterodactyl
     rm -r pterodactylthemes
-    git clone https://github.com/wffzy/pterodactylthemes.git
-    cd pterodactylthemes
+    git clone https://github.com/ZyxMapLe/ptzx.git
+    cd ptzx
     rm /var/www/pterodactyl/resources/scripts/pterodactylthemes.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
     rm /var/www/pterodactyl/resources/scripts/components/server/files/FileManagerContainer.tsx
@@ -45,7 +45,7 @@ instalartema(){
 }
 
 voltar(){
-bash <(curl https://raw.githubusercontent.com/wffzy/pterodactylthemes/main/menu.sh)
+bash <(curl https://raw.githubusercontent.com/ZyxMapLe/ptzx/main/menu.sh)
 }
 
 instaladordetemas(){
@@ -71,10 +71,10 @@ restaurarbackup(){
 }
 
     CYAN='\033[0;36m'
-    echo -e "${CYAN}Copyright 2023 NextSekai Theme"
+    echo -e "${CYAN}Copyright 2023 ZxCraxss Theme"
     echo -e "${CYAN}This program is free software, you can modify and distribute it without any problems."
     echo -e ""
-    echo -e "${CYAN}Website : https://nextsekai.in/"
+    echo -e "${CYAN}Website : https://panel.zxcraxss-api.my.id/"
     echo -e ""
     echo -e "${CYAN} [1] Install Theme"
     echo -e "${CYAN} [2] Restore Backup"
